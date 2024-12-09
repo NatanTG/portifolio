@@ -1,0 +1,85 @@
+
+/* Estilo básico do navbar */
+.navbar {
+    background-color: #1f2937; /* Cor do fundo */
+    padding: 1rem 2rem;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  /* Container principal */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo do logo */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Links de navegação */
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  .nav-links li {
+    text-align: center;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #14b8a6; /* Hover: cor teal */
+  }
+  
+  /* Ícone do menu mobile */
+  .menu-icon {
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilo mobile */
+  .nav-mobile {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #1f2937;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .nav-mobile li {
+    margin: 10px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  }
+  
