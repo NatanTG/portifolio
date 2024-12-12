@@ -1,7 +1,6 @@
 
-/* Estilo básico do navbar */
 .navbar {
-    background-color: #1f2937; /* Cor do fundo */
+    background-color: #1f2937; 
     padding: 1rem 2rem;
     color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -10,7 +9,6 @@
     z-index: 10;
   }
   
-  /* Container principal */
   .container {
     display: flex;
     justify-content: space-between;
@@ -19,13 +17,13 @@
     margin: 0 auto;
   }
   
-  /* Estilo do logo */
+  
   .logo {
     font-size: 1.5rem;
     font-weight: bold;
   }
   
-  /* Links de navegação */
+  
   .nav-links {
     display: flex;
     list-style: none;
@@ -44,10 +42,10 @@
   }
   
   .nav-links a:hover {
-    color: #14b8a6; /* Hover: cor teal */
+    color: #14b8a6; 
   }
   
-  /* Ícone do menu mobile */
+  
   .menu-icon {
     display: none;
     font-size: 1.8rem;
@@ -57,7 +55,7 @@
     cursor: pointer;
   }
   
-  /* Estilo mobile */
+  
   .nav-mobile {
     position: absolute;
     top: 60px;

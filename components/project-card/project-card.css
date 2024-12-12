@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se ajustem em linhas se necessário */
+    justify-content: center; /* Alinha os itens ao centro */
+    gap: 1rem; /* Espaçamento entre os cartões */
+  }
+  
