@@ -19,7 +19,7 @@ export default function ContactLinks() {
     },
     {
       name: "Currículo",
-      href: "/curriculo.pdf",
+      href: "assets/cv_beta.pdf",
       icon: <FaFilePdf />,
     },
   ];
