@@ -20,7 +20,10 @@ export default function LandingPage() {
     className="w-64 h-64 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full mb-6"
   />
   <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-center">
-    Olá, me chamo Natã.
+    Olá, me chamo Natã
+  </h1>
+  <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-center">
+  Desenvolvedor Full-Stack
   </h1>
   <div className="flex flex-wrap justify-center gap-4 mt-4">
     <ContactLinks />
@@ -28,7 +31,7 @@ export default function LandingPage() {
 </section>
 
 
-<section id="about" className="min-h-screen flex flex-col items-center bg-gray-800 text-white px-6 lg:px-16 py-12">
+<section id="about" className="min-h-screen flex flex-col items-center bg-gray-800 text-white px-6 lg:px-16 py-24">
   <div className="w-full max-w-4xl my-auto">
     <div className="mb-8">
       <h2 className="text-4xl font-bold mb-4">Sobre mim</h2>

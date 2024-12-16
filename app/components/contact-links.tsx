@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf, FaWhatsapp } from "react-icons/fa";
 
 export default function ContactLinks() {
   const links = [
@@ -19,9 +19,14 @@ export default function ContactLinks() {
     },
     {
       name: "Currículo",
-      href: "assets/cv_beta.pdf",
+      href: "assets/cv_natan.pdf",
       icon: <FaFilePdf />,
     },
+    {
+      name: "WhatsApp",
+      href: "https://api.whatsapp.com/send?phone=5512997428455",
+      icon: <FaWhatsapp />,
+    }
   ];
 
   return (
