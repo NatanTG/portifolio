@@ -8,6 +8,9 @@ import {
   SiNestjs,
   SiPrisma,
   SiDart,
+  SiPostgresql,
+  SiDocker,
+  SiMongodb,
 } from "react-icons/si";
 
 export default function StacksSection() {
@@ -19,11 +22,15 @@ export default function StacksSection() {
     { name: "Nest.js", icon: <SiNestjs />, link: "https://nestjs.com/" },
     { name: "Prisma", icon: <SiPrisma />, link: "https://www.prisma.io/" },
     { name: "MySQL", icon: <SiMysql />, link: "https://www.mysql.com/" },
+    { name: "PostgreSQL", icon: <SiPostgresql/>, link: "https://www.postgresql.org/"},
+    { name: "MongoDB", icon: <SiMongodb />, link: "https://www.mongodb.com/" },
+    { name: "Docker", icon: <SiDocker />, link: "https://www.docker.com/" },
     { name: "React.js", icon: <FaReact />, link: "https://reactjs.org/" },
     { name: "Next.js", icon: <SiNextdotjs />, link: "https://nextjs.org/" },
     { name: "Tailwind CSS", icon: <SiTailwindcss />, link: "https://tailwindcss.com/" },
     { name: "HTML5", icon: <FaHtml5 />, link: "https://html.spec.whatwg.org/" },
     { name: "CSS3", icon: <FaCss3Alt />, link: "https://www.w3.org/Style/CSS/" },
+
   ];
   return (
     <div className="mt-5">

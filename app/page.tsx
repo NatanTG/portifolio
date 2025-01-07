@@ -49,7 +49,7 @@ export default function LandingPage() {
         Minhas principais habilidades incluem:
       </p>
       <ul className="text-gray-400 mb-4 text-lg list-disc list-inside">
-        <li>Desenvolvimento back-end com Node.js, Nest.js, MongoDB e Prisma.</li>
+        <li>Desenvolvimento back-end com Node.js, Nest.js, PostgreSQL/MongoDB, Prisma e configuração de ambiente com Docker.</li>
         <li>Criação de interfaces front-end com React.js, Next.js e Flutter, além de desenvolvimento de widgets personalizados.</li>
         <li>Aplicação de boas práticas como Clean Code, MVVM e BLoC, garantindo projetos de alta qualidade e fácil manutenção.</li>
       </ul>
