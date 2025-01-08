@@ -14,6 +14,18 @@ const projects = [
     thumbnail: "assets/projeto-images/neosiga.png", 
     storeLink: "https://play.google.com/store/apps/details?id=com.neosiga.neo_siga",
   },
+  {
+    id: 2,
+    name: "Front-end Tycket Ingressos",
+    description:
+      "Desenvolvi o front-end completo para a empresa Tycket Ingressos, criando uma aplicação com navegação dinâmica utilizando rotas eficientes e intuitivas. Implementei widgets personalizados com gerenciamento de estado para oferecer uma experiência interativa e responsiva aos usuários. O projeto incluiu a integração de componentes reutilizáveis e foco em design amigável, alinhado às necessidades do cliente.",
+    techStack: [
+      { name: "Flutter", icon: <SiFlutter />, link: "https://flutter.dev/" },
+      { name: "Dart", icon: <SiDart />, link: "https://dart.dev/" },
+    ],
+    youtubeLink: "https://www.youtube.com/embed/_HhrY8N3eZg", 
+    thumbnail: "assets/projeto-images/tycket.jpg", 
+  },
 ];
 
 export default function ProjectsSection() {
