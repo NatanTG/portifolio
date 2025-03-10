@@ -6,11 +6,13 @@ import {
   SiMysql,
   SiNextdotjs,
   SiNestjs,
+  SiExpress,
   SiPrisma,
   SiDart,
   SiPostgresql,
   SiDocker,
   SiMongodb,
+  SiFirebase,
 } from "react-icons/si";
 
 export default function StacksSection() {
@@ -20,8 +22,10 @@ export default function StacksSection() {
     { name: "Flutter", icon: <SiFlutter />, link: "https://flutter.dev/" },
     { name: "Node.js", icon: <FaNodeJs />, link: "https://nodejs.org/" },
     { name: "Nest.js", icon: <SiNestjs />, link: "https://nestjs.com/" },
+    { name: "Express.js", icon: <SiExpress />, link: "https://expressjs.com/" },
     { name: "Prisma", icon: <SiPrisma />, link: "https://www.prisma.io/" },
     { name: "MySQL", icon: <SiMysql />, link: "https://www.mysql.com/" },
+    { name: "Firebase", icon: <SiFirebase />, link: "https://firebase.google.com/?hl=pt-br"},
     { name: "PostgreSQL", icon: <SiPostgresql/>, link: "https://www.postgresql.org/"},
     { name: "MongoDB", icon: <SiMongodb />, link: "https://www.mongodb.com/" },
     { name: "Docker", icon: <SiDocker />, link: "https://www.docker.com/" },
